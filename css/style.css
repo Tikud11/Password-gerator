@@ -1,0 +1,57 @@
+.main {
+display: flex;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+letter-spacing: 2px;
+}
+
+.main__title {
+  font-size: 40px;
+}
+
+.main__result > span {
+  
+}
+
+.main__button {
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #000;;
+  background-color: rgb(64, 203, 14);
+  box-shadow: 0px 8px 0px rgb(55, 73, 18);
+  position: relative;
+  top: 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: 500;
+  transition: background-color 0.3s ease 0s;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  background-color:rgb(33, 158, 230);
+}
+
+.main__button:active {
+  top: 4px;
+  box-shadow: 0px 4px 0px rgb(55, 73, 18);
+}
+
+.main__button--copy {
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  background-color: #00000048;
+  box-shadow: 0px 8px 0px rgb(98, 98, 100);
+}
+.main__button--copy:active {
+  top: 4px;
+  box-shadow: 0px 4px 0px #00000074;
+}
+
+.main__button--copy:hover {
+  background-color: rgba(191, 191, 191, 0.833);
+}
